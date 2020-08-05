@@ -1,0 +1,21 @@
+.todo-item-container {
+  li {
+    list-style: none;
+    padding: 10px 0;
+  }
+
+  button {
+    margin-left: 10px;
+    border-radius: 5px;
+
+    &.completed {
+      background-color: green;
+      color: white;
+    }
+
+    &.delete {
+      background-color: indianred;
+      color: white;
+    }
+  }
+}

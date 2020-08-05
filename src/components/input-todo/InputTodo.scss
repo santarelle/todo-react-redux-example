@@ -1,0 +1,17 @@
+.input-todo-container {
+  input {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: chocolate;
+    color: white;
+  }
+}
